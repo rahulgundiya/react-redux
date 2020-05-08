@@ -1,0 +1,39 @@
+.AddPerson {
+    text-align: center;
+    margin: 30px;
+
+}
+.AddPerson input {
+    display: block;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 500;
+    width:50%;
+    box-sizing: border-box;
+    height: 30px;
+    margin-left: 120px;
+}
+.Button {
+    display: block;
+    margin-top: 20px;
+    color:blue;
+    font:inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left:200px;
+
+}
+.Button:active ,
+.Button:focus,
+.Button:hover  {
+    background-color: green;
+    color:orange
+  }
+  .Button:disabled {
+      color: white;
+      cursor:not-allowed;
+  }
+  
+  
+  
