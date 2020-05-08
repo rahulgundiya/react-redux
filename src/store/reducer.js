@@ -5,13 +5,13 @@ const initialState = {
 };
 
 const reducer = ( state = initialState, action ) => {
-    switch ( action.type ) {
+    switch ( action.type ) { 
         case actionTypes.ADD_PERSON:
             const newPerson = {
                 id: Math.random(), // not really unique but good enough here!
                 name: action.personData.name,
                 age:action.personData.age
-            }
+            } 
             return {
                 ...state,
                 persons: state.persons.concat( newPerson )

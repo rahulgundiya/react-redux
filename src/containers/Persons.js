@@ -13,8 +13,8 @@ class Persons extends Component {
                 <AddPerson personAdded={this.props.onAddedPerson} />
                 {this.props.prs.map(person => (
           <Person 
-             key={person.id}
-             name={person.name} 
+             key={person.id} 
+             name={person.name}  
              age={person.age} 
             clicked={() => 
                 this.props.onRemovedPerson(person.id)}/>

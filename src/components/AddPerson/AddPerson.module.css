@@ -27,12 +27,12 @@
 .Button:active ,
 .Button:focus,
 .Button:hover  {
-    background-color: green;
+    background-color: green; 
     color:orange
   }
   .Button:disabled {
       color: white;
-      cursor:not-allowed;
+      cursor:not-allowed; 
   }
   
   
